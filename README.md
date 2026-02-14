@@ -6,7 +6,7 @@ You can read the draft BIP (and leave comments/feedback!) here: https://github.c
 
 ## Setup
 
-You will need to compile `bitcoind` from the [Silent Payments DRAFT PR](https://github.com/bitcoin/bitcoin/pull/24897). Instructions for compiling Bitcoin from the source can be found [here](https://github.com/bitcoin/bitcoin/tree/master/doc#building).
+You will need to compile `bitcoind` from the [Silent Payments DRAFT PR](https://github.com/bitcoin/bit +±coin/pull/24897). Instructions for compiling Bitcoin from the source can be found [here](https://github.com/bitcoin/bitcoin/tree/master/doc#building).
 
 Once you've successfully compiled the PR branch, you'll need to start a regtest node. For convenience, there is a `node-regtest/` folder included which has some helpful scripts and uses `direnv` to avoid conflicting with your local Bitcoin node/development environment. To use, simply copy your compiled `bitcoind` and `bitcoin-cli` binaries to the folder like so:
 
